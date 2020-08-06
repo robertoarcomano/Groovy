@@ -1,12 +1,14 @@
 def a = "ok"
 def value = false
-def arr = [1,2,3]
+def arr = [1, 2, 3]
 
 class class1 {
     def value = 2
+
     class1() {
 
     }
+
     int fn() {
         return this.value
     }
@@ -20,7 +22,7 @@ for (i = 1; i < 10; i++) {
     println i + " " + "Test" + " " + a
 }
 
-for(item in arr) {
+for (item in arr) {
     print item
 }
 
